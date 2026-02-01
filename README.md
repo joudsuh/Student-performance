@@ -3,13 +3,13 @@
 
 This project predicts student academic performance (grade categories) using machine learning techniques and feature selection.
 
-## 📊 Dataset
+##  Dataset
 Kaggle Dataset: *Student Success: Factors & Insights*  
 Place the dataset CSV inside the `data/` folder and rename it to:
 
 `student_performance.csv`
 
-## 🚀 Project Structure
+## Project Structure
 
 ```
 student-performance-ml-prediction/
@@ -32,21 +32,21 @@ student-performance-ml-prediction/
     └── Final_Report.pdf
 ```
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 pip install -r requirements.txt
 python src/main.py
 ```
 
-## 🧠 Models Used
+##  Models Used
 - Logistic Regression
 - Decision Tree
 - Random Forest
 - Support Vector Machine (Best Performer)
 - K-Nearest Neighbors
 
-## 🏆 Key Findings
+##  Key Findings
 Top predictive features:
 Attendance, Hours Studied, Previous Scores, Tutoring Sessions, Sleep Hours,
 Parental Involvement, Access to Resources, Motivation Level, Family Income, Peer Influence.
